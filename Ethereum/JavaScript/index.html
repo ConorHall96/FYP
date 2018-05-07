@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <link rel="stylesheet" type="text/css" href="main.css">
+
+    <script src="./node_modules/web3/dist/web3.min.js"></script>
+    <script src="Ethereum.js"></script>
+    
+
+</head>
+<body>
+    <div class="container">
+
+        <h1>My Supply Chain</h1>
+
+        <h2 id="product"></h2>
+
+        <label for="name" class="col-lg-2 control-label">Product Name</label>
+        <input id="name" type="text">
+
+        <label for="name" class="col-lg-2 control-label">Product ID</label>
+        <input id="ID" type="text">
+
+        <button id="Add">Add Product</button>
+        
+        <label for="name" class="col-lg-2 control-label">Find a Product</label>
+        <input id="find" type="text">
+        <button id="Find">Find Product</button>
+        
+        <label for="name" class="col-lg-2 control-label">Test Loop</label>
+        <input id="test" type="text">
+        <button id="Test">Test Loop</button>
+
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+
+    <script>
+        
+        setupEthereum();
+        
+        $("#Add").click(function() {
+            addProduct($("#ID").val(),$("#name").val())
+        });
+
+        $("#Find").click(function() {
+            var productID = $("#ID").val()
+            $("#product").html = getProduct(productID)
+        });
+        
+        $("#Test").click(function() {
+            runEthereumBatch($("#test").val())
+        });
+        
+    </script>
+
+</body>
+</html>

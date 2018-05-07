@@ -1,0 +1,30 @@
+=============== Apr 14, 2018 (BST) ===============
+13:52:03.974155 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+13:52:03.993668 db@open opening
+13:52:03.994668 version@stat F·[] S·0B[] Sc·[]
+13:52:04.045205 db@janitor F·2 G·0
+13:52:04.045205 db@open done T·51.5364ms
+=============== Apr 14, 2018 (BST) ===============
+13:52:51.974410 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+13:52:51.974915 version@stat F·[] S·0B[] Sc·[]
+13:52:51.974915 db@open opening
+13:52:51.974915 journal@recovery F·1
+13:52:51.978412 journal@recovery recovering @1
+13:52:52.047105 memdb@flush created L0@2 N·9 S·546B "H^\x1f..א\xe0,v3":"r\x00\x00..א\xe0,v5"
+13:52:52.057109 version@stat F·[1] S·546B[546B] Sc·[0.25]
+13:52:52.076146 db@janitor F·3 G·0
+13:52:52.076146 db@open done T·101.2302ms
+13:53:11.278710 db@close closing
+13:53:11.285216 db@close done T·6.5055ms
+=============== Apr 14, 2018 (BST) ===============
+13:53:57.299419 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+13:53:57.299919 version@stat F·[1] S·546B[546B] Sc·[0.25]
+13:53:57.300419 db@open opening
+13:53:57.300419 journal@recovery F·1
+13:53:57.303421 journal@recovery recovering @3
+13:53:57.312436 memdb@flush created L0@5 N·3 S·290B "Blo..ion,v12":"dbU..ata,v11"
+13:53:57.315984 version@stat F·[2] S·836B[836B] Sc·[0.50]
+13:53:57.325723 db@janitor F·4 G·0
+13:53:57.325723 db@open done T·25.304ms
+14:09:15.411019 db@close closing
+14:09:15.639956 db@close done T·228.9374ms

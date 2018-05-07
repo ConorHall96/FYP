@@ -1,0 +1,19 @@
+{
+  "name": "mysupplychain",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "lite-server"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "solc": "^0.4.23",
+    "web3": "github:ethereum/web3.js"
+  },
+  "devDependencies": {
+    "lite-server": "^2.3.0"
+  }
+}
